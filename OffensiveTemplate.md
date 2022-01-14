@@ -29,8 +29,6 @@ The following vulnerabilities were identified on each target:
 3. Unsalted User Password Hash (WordPress database)
 4. Misconfiguration of User Privileges/Privilege Escalation
 
-_TODO: Include vulnerability scan results to prove the identified vulnerabilities._
-
 ### Exploitation
 The Red Team was able to penetrate Michael and retrieve the following confidential data:
 
@@ -59,7 +57,21 @@ The Red Team was able to penetrate Michael and retrieve the following confidenti
         - `nano service.html`
 
 ![Flag 1 location](/Images/flag1-location.png "Flag 1 location")
-  - `flag2.txt`: _TODO: Insert `flag2.txt` hash value_
-    - **Exploit Used**
-      - _TODO: Identify the exploit used_
-      - _TODO: Include the command run_
+
+  - **Flag2: fc3fd58dcdad9ab23faca6e9a3e581c**
+- Exploit Used:
+    - Same exploit used to gain Flag 1.
+    - Capturing Flag 2: While SSH in as user Michael Flag 2 was also found.
+        - Once again traversing through directories and files as before Flag 2 was found in /var/www next to the html folder that held Flag 1.
+        - Commands:
+            - `ssh michael@192.168.1.110` 
+            - `pw: michael`
+            - `cd ../` 
+            - `cd ../`
+            - `cd var/www`
+            - `ls -l`
+            - `cat flag2.txt`
+
+![Flag 2 location](/Images/flag2-location.png "Flag 2 location")
+
+![Flag 2 cat](/Images/flag2-cat.png "Flag 2 cat")
