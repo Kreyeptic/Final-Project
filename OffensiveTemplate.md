@@ -9,10 +9,13 @@
 
 Nmap scan results for each machine reveal the below services and OS details:
 
-```bash
-$ nmap ... # TODO: Add command to Scan Target 1
-  # TODO: Insert scan output
-```
+Nmap scan results for each machine reveal the below services and OS details:
+
+Command: `$ nmap -sV 192.168.1.110`
+
+Output Screenshot:
+
+![Nmap scan results](https://github.com/Kreyeptic/Final-Project/blob/main/Images/Nmap%20scan.png "Nmap scan results")
 
 This scan identifies the services below as potential points of entry:
 - Target 1
