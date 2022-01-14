@@ -75,6 +75,4 @@ The Red Team was able to penetrate Michael and retrieve the following confidenti
             - `ls -l`
             - `cat flag2.txt`
 
-![Flag 2 location](/Images/flag2-location.png "Flag 2 location")
-
-![Flag 2 cat](/Images/flag2-cat.png "Flag 2 cat")
+![Flag 2 location](https://github.com/Kreyeptic/Final-Project/blob/main/Images/Flag2.png "Flag 2 location")
