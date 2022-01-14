@@ -40,9 +40,9 @@ The Red Team was able to penetrate Michael and retrieve the following confidenti
 - Exploit Used:
     - WPScan to enumerate users of the Target 1 WordPress site
     - Command: 
-        - `$ wpscan --url http://192.168.1.110 --enumerate u`
+        - `$ wpscan --url http://192.168.1.110/wordpress --enumerate u`
 
-![WPScan results](/Images/nmap-scan-results.png "WPScan results")
+![WPScan results](https://github.com/Kreyeptic/Final-Project/blob/main/Images/Nmap%20scan.png "WPScan results")
 
 - Targeting user Michael
     - Small manual Brute Force attack to guess/finds Michael’s password
