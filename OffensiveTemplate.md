@@ -56,7 +56,7 @@ The Red Team was able to penetrate Michael and retrieve the following confidenti
         - `ls -l`
         - `nano service.html`
 
-![Flag 1 location](/Images/flag1.png "Flag 1")
+![Flag 1 location](https://github.com/Kreyeptic/Final-Project/blob/main/Images/Flag1.png "Flag 1")
 
   - **Flag2: fc3fd58dcdad9ab23faca6e9a3e581c**
 - Exploit Used:
