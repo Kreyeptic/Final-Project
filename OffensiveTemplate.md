@@ -29,8 +29,7 @@ The following vulnerabilities were identified on each target:
 - Target 1
 1. User Enumeration (WordPress site)
 2. Weak User Password
-3. Unsalted User Password Hash (WordPress database)
-4. Misconfiguration of User Privileges/Privilege Escalation
+3. Misconfiguration of User Privileges/Privilege Escalation
 
 ### Exploitation
 The Red Team was able to penetrate Michael and retrieve the following confidential data:
