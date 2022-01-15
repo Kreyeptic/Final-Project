@@ -47,7 +47,7 @@ The following vulnerabilities were identified on each target:
   - `wpscan` user enumeration
     - `wpscan` was able to enumerate users and find valid usernames for the
       target system.
-    - ![wp-scan-output](https://github.com/Kreyeptic/Final-Project/tree/main/Images)
+    - [Link to ScreenShots of word press](https://github.com/Kreyeptic/Final-Project/tree/main/Images)
   - SSH with Password
     - Users are able to ssh into the machine with simply a password, rather than
       requiring an SSH key.
